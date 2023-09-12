@@ -31,7 +31,7 @@ class Router {
      */
     load(page = "home") {
         const { paths } = this;
-        console.log ('page', page)
+        //console.log ('page', page)
         if(page=='index.html' || page=='web-inventory-soft/'){
             page = 'home';
         }
