@@ -32,8 +32,8 @@ class Router {
     load(page = "home") {
         const { paths } = this;
         console.log ('page', page)
-        if(page=='index.html'){
-            return
+        if(page=='index.html' || page=='web-inventory-soft/'){
+            page = 'home';
         }
         const { path, template } = paths[page] || paths.error;
         const $CONTAINER = document.querySelector("#content");
