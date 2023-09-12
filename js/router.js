@@ -31,8 +31,8 @@ class Router {
      */
     load(page = "home") {
         const { paths } = this;
-        if (page === 'index.html'){
-            page = 'home'
+        if(page=='index.html'){
+            return
         }
         const { path, template } = paths[page] || paths.error;
         const $CONTAINER = document.querySelector("#content");
