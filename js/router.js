@@ -31,6 +31,7 @@ class Router {
      */
     load(page = "home") {
         const { paths } = this;
+        console.log ('page', page)
         if(page=='index.html'){
             return
         }
