@@ -1,0 +1,44 @@
+.form-rate{
+	width:35%;
+	padding:2%;
+	padding-right:8%;
+	margin:auto;
+	margin-top:15%;
+	font-family: "Agency FB";
+	color:#FFFFFF;
+	background:#D06FEB;
+}
+.form-answer{
+	display: inline-block;
+	text-align: right;
+	width:49%;
+	padding:1%;
+	margin-bottom:1%;
+	box-sizing: border-box;
+}
+input{
+	border-radius:5%;
+	border:1px solid #823ACA;
+}
+h3{
+	text-align:center;
+	margin-top:5px;
+	margin-left:20%;
+}
+button{
+	border: none;
+}
+input[type="submit"]{
+	width:30%;
+	padding:2%;
+	color:#FFFFFF;
+	background:#9F2596;
+	margin-top:2%;	
+	border:none;
+}
+input[type="submit"]:hover{
+	background: #CE30C3;
+}
+.submit-margin{
+	margin-left:28%;
+}

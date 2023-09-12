@@ -1,0 +1,83 @@
+.form-register-usser{
+    width:360px;
+    background:#631B87;
+	border-radius:5%;
+	margin:auto;
+	margin-top:5%;
+	padding:20px;
+	font-family:"Agency FB";
+	text-align:center;
+	color:#FFFFFF;
+}
+.img-usser{
+	width:70%;
+	margin:auto;
+	margin-bottom:5%;
+}
+img{
+	width:95%;
+}
+.add-data input{
+	width:42%;
+	display:inline;
+	margin-bottom:2%;
+	padding:3%;
+	border-radius:4%;
+	border:1px solid #C855F5;
+	font-family:"Agency FB";
+	text-align:center;
+}
+input[id="id"]{
+	display:block;
+	margin:auto;
+	margin-bottom:3%;
+	background:#E07EFA;
+}
+textarea[id="address"]{
+	width:96%;
+	border-radius:2%;
+	border:1px solid #C855F5;
+	height:100px;
+	font-family:"Agency FB";
+	resize:none;
+}
+input[type="submit"]{
+	width:70%;
+	color:#FFFFFF;
+	background:#E430E8;
+	font-family:"Berlin Sans FB";
+	font-size:150%;
+	margin:auto;
+	margin-top:5%;
+	padding:3%;
+	border-radius:3%;
+	border:2px solid #9F3AC7;
+}
+input[type="submit"]:hover{
+	background:#B653C7;
+}
+.list-ussers{
+	width:60%;
+	margin:auto;
+	margin-top:2%;
+	background:#631B87;
+	color:#FFFFFF;
+	text-align:center;
+}
+.table-ussers{
+	border-radius:5%;
+	width:100%;
+	color:#000000;
+}
+.table-ussers td{
+	width:15%;
+	background:#FFFFFF;
+}
+.list-ussers h3{
+	font-family:"Agency FB";
+	font-size:200%;
+	margin:auto;
+}
+td[id="address"]{
+	width:50%;
+}
